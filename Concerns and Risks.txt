@@ -7,5 +7,4 @@ Saving files: Dr. Google
 Learning UI:  Ask Dr. Google
 
 Creating a DataBase: Consult with Dr. Google
-On the internet I see hundreds of people creating Databases on Android apps with SQLite. So it is a very common thing to do. 
-If all else fails we could create our own database as a struct. Thus we do not need a database. However it may be easier to use one. 
+	On the internet I see hundreds of people creating Databases on Android apps with SQLite. This software comes with Android since version ("cupcake"). So it is a very common thing to do. If all else fails we could create our own database as a struct. Which we can save as a .txt file. Thus we do not need a database. However it may be easier to use one. 
