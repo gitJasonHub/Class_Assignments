@@ -4,7 +4,9 @@ Risks we have identified in regards to our team project:
 
 Saving files: Dr. Google
 
-Learning UI:  Ask Dr. Google
 
+Learning UI:  Ask Dr. Google
+	There are some challenges associated with the UI design of an Android app. There are several possible devises that the app could run on and even multiple display modes in each device. However there are standard ways of overcoming these issues. Much of the time visual objects have their position and size defined in relation to other objects rather than using an absolute definition. Even so, often the best way of compensating for this issue is to define several layouts for the device to choose from. There are likely other issues associated with the creation of an organized and pretty user interface, but there will also be ways of overcoming them. One important thing we will need to do is not put off the user interface design because, though solvable, user interface issues can take an indeterminate amount of time to fix.
+	
 Creating a DataBase: Consult with Dr. Google
 	On the internet I see hundreds of people creating Databases on Android apps with SQLite. This software comes with Android since version ("cupcake"). So it is a very common thing to do. If all else fails we could create our own database as a struct. Which we can save as a .txt file. Thus we do not need a database. However it may be easier to use one. 
