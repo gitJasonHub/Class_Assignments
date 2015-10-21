@@ -1,0 +1,9 @@
+Kyle Shaw, Jason Newquist, Adam Cameron
+
+Risks we have identified in regards to our team project:
+
+Saving files: Dr. Google
+
+Learning UI:  Ask Dr. Google
+
+Creating a DataBase: Consult with Dr. Google
