@@ -3,7 +3,17 @@ Kyle Shaw, Jason Newquist, Adam Cameron
 Risks we have identified in regards to our team project:
 
 Saving files: Dr. Google
-
+It turns out that in java we can write objects to a file.  
+To do this we use the FileOutputStream and the ObjectOutputStream objects.  
+The FileOutputStream object opens an existing file or creates a new one if not found.
+The ObjectOutputStream object allows us to write an object to the file
+You call the writeObject function within ObjectOutputStream with a object as a parameter. 
+After that you simply close the file calling the close function of the ObjectOutputStream.
+To retrieve the files you simply do the reverse with a FileInputStream and a ObjectInputStream.
+FileInputStream opens the file where the object(s) are stored.
+Then the ObjectInputStream allows you assign a new object to the object in the file.
+The ObjectInputStream returns a generic object so you have to cast it to get it to be what you want.  
+Once you get the objects you want you simply close the file. 
 
 Learning UI:  Ask Dr. Google
 	There are some challenges associated with the UI design of an Android app. There are several possible devises that the app could run on and even multiple display modes in each device. However there are standard ways of overcoming these issues. Much of the time visual objects have their position and size defined in relation to other objects rather than using an absolute definition. Even so, often the best way of compensating for this issue is to define several layouts for the device to choose from. There are likely other issues associated with the creation of an organized and pretty user interface, but there will also be ways of overcoming them. One important thing we will need to do is not put off the user interface design because, though solvable, user interface issues can take an indeterminate amount of time to fix.
